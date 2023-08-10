@@ -4,13 +4,15 @@
 /**
  * main - entry point
  *
- * Description: A C programe thay prints with fputs function
+ * Description: A C programe thay prints with write function
  *
- * Return: 0
+ * Return: 1
  */
 
 int main(void)
 {
-	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19", stdout);
+	char c[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, c, 59)
 	return (1);
 }
