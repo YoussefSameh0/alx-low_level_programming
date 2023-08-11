@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description : A C programe thay prints with putchar function
+ * Description : A C programe that prints with putchar function
  *
  * Return: 0
  */
@@ -14,12 +14,13 @@ int main(void)
 
 	while (c <= 'z')
 	{
-	    if (c != 'e' && c != 'q')
-	    {
-		putchar(c);
-	    }
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
 		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
