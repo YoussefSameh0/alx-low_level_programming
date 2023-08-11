@@ -1,23 +1,23 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - entry point
- *
- * Description : A C programe that prints with put function
- *
- * Return: 0
+ * main - Entry point
+ * Description: prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int i;
+	char ch;
 
-	for (i = 48; i < 58; i++)
-		putchar(i);
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+	for (ch = '0'; ch <= '9'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
