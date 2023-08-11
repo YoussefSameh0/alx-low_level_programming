@@ -14,9 +14,9 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 		putchar(i);
-	char c = 'a';
+	char c;
 
-	for (; c <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 	putchar('\n');
 	return (0);
