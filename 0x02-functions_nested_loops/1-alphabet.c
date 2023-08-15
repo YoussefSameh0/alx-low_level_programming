@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <istdio.h>
 #include "main.h"
 
 /**
