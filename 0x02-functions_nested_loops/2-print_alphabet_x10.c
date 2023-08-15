@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet - Entry point
+ * Description : A C programe that ---
  * Return:0
  */
 
