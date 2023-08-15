@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <istdio.h>
 #include "main.h"
 
 /**
@@ -16,9 +15,10 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		_putchar(c);
+		putchar(c);
 		c++;
 
 	}
-	_putchar('\n');
+	putchar('\n');
+	return (0);
 }
