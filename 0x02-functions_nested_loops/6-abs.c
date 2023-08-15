@@ -8,8 +8,5 @@
 
 int _abs(int n)
 {
-	int r;
-
-	r = _abs(-1);
-	printf("%i\n", r);
+	return (n >= 0 ? n : n * -1);
 }
